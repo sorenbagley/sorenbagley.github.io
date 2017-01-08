@@ -1,5 +1,14 @@
 <DOCTYPE html>
+
 <html>
+
+<head>
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet"> 
+
+</head>
+
 <style>
 html, body {
     height: 100%;
@@ -14,13 +23,45 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
+
+
+
+.video-background {
+
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+  
+  a {
+	  text-decoration: none;
+	  color: white;
+	  text-align: center;
+}
+
+.soren_link {
+		text-align: center;
+		margin-top:480px;
+		font-family: 'Cinzel', serif;
+		font-weight: bold;
+		font-size:larger;
+				}
+}
+
 </style>
 <body>
 
+<div class="soren_link"> <a href= "http://www.sorenbagley.com"> Soren Bagley </a> </div>
 
-<img src="https://www.dropbox.com/s/94ur80bw2zmvspo/museum%20selfie%20full.jpg?raw=1">
-
-
+<div class="video-background">
+  <video loop muted autoplay poster="sorenbagleyphotographybgvideostill.jpg" class="video-background">
+        <source src=diveclean.mp4 type="video/mp4">
+    </video>
 
 
 </body>
