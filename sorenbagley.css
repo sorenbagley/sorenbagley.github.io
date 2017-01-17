@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.navbar_root{
+			text-align:center;
+			color:#a0a0a0;	
+			margin-top: 35px;
+			font-family: 'Padauk', sans-serif;
+			font_size: larger;
+				
+	}
+	
+
+	.works_branch{
+			text-align:center;
+            color:#a0a0a0;		
+			font-family: 'Padauk', sans-serif;
+			font_size: larger;
+	}
+	
+	.info_branch{
+		text-align:center;
+            color:#a0a0a0;	
+			font-family: 'Padauk', sans-serif;
+			font_size: larger;
+					
+	}
+	.active{
+			color:black;
+	}	
+	.stay_active{
+			color:black;
+	}
+	
+	
+	p{
+	margin-left: 25%;
+	margin-right: 25%;
+	color:#a0a0a0;
+	font-family: 'Padauk', sans-serif;
+	font_size: larger;
+	}
+	
+	a{
+		color:#a0a0a0;
+		text-decoration:none;
+	}
+	a:hover {
+		color:black;
+	}
+	
+
+	
+	.works_button{
+		cursor: pointer;
+		curson: hand;
+	}
+	
+	.info_button{
+		cursor: pointer;
+		curson: hand;
+	}
+	
+	.name{
+		position: relative;
+		top: 140px;	
+		left: 50px;	
+	}
+	
+	.contact_data{
+		position:relative;
+		left:475px;
+		top:100px;
+	}
+	.thumbnail_gallery{
+		padding-top: 10px
+	}
+
+	
+	img{
+		float: left;
+		margin: 5px;		
+	}
+	
+	//this allow the images to resize dynamically//	
+	img {
+		max-width: 100%
+		height: auto;
+	}
