@@ -23,7 +23,7 @@ function main() {
 	$('.info_button').on('click', function() {
 		$('.info_branch').toggle();		
 		$('.works_branch').hide();
-		$(this).addClass("stay_active");	
+		$(this).toggleClass("stay_active");	
 		$('.works_button').removeClass("stay_active");
 		});
 	$('.about_button').on('click', function(){

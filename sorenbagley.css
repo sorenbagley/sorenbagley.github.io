@@ -61,17 +61,8 @@
 		curson: hand;
 	}
 	
-	.name{
-		position: relative;
-		top: 140px;	
-		left: 50px;	
-	}
 	
-	.contact_data{
-		position:relative;
-		left:475px;
-		top:100px;
-	}
+	
 	.thumbnail_gallery{
 		padding-top: 10px
 	}
